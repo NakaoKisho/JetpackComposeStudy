@@ -73,7 +73,7 @@ private fun NotOptimized() {
 @Composable
 private fun Optimized() {
     Column {
-        var text by rememberSaveable { mutableStateOf("") }
+        var text by rememberSaveable { mutableStateOf("編集する文字列") }
 
         OptimizedTextField(
             value = { text },
